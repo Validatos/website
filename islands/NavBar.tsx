@@ -19,11 +19,7 @@ const NavItem = (props: NavItemProps) => {
   );
 };
 
-interface NavBarProps {
-  session?: string;
-}
-
-const Navbar = (props: NavBarProps) => {
+const Navbar = () => {
   const headerNavItems = [
     {
       href: "/#",
@@ -105,15 +101,11 @@ const Navbar = (props: NavBarProps) => {
             </ul>
           </div>
 
-          {props.session
-            ? <div>session - {props.session}</div>
-            : (
-              <div class="navbar-btn d-none d-sm-inline-block hidden sm:block ml-auto">
-                <a class="ud-main-btn ud-white-btn" href="/account">
-                  Ingresar
-                </a>
-              </div>
-            )}
+          <div class="navbar-btn d-none d-sm-inline-block hidden sm:block ml-auto">
+            <a class="ud-main-btn ud-white-btn" href="/account">
+              Ingresar
+            </a>
+          </div>
 
           <button
             class={`navbar-toggler ml-4 md:hidden ${
