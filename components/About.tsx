@@ -9,6 +9,7 @@ import IconLayersSubtract from "$tabler_icons/tsx/layers-subtract.tsx";
 interface AboutCardProps {
   title: string;
   description: string;
+  // deno-lint-ignore no-explicit-any
   Icon: any;
   linkText?: string;
   linkHref?: string;
