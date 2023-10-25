@@ -56,8 +56,10 @@ const Navbar = () => {
         isSticky.value = false;
       }
     };
+    // deno-lint-ignore no-window-prefix
     window.addEventListener("scroll", handleScroll);
 
+    // deno-lint-ignore no-window-prefix
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -73,7 +75,7 @@ const Navbar = () => {
 
   return (
     <header
-      class={`ud-header sm:h-[97px] ${
+      class={`ud-header sm:h-[110px] ${
         isSticky.value ? "sticky " : "bg-[#3056d3]"
       }`}
       ref={headerRef}
