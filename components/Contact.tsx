@@ -1,5 +1,5 @@
-import IconMailbox from "@tabler_icons/tsx/mailbox.tsx";
-import Icon24Hours from "@tabler_icons/tsx/24-hours.tsx";
+import IconMailbox from "$tabler_icons/tsx/mailbox.tsx";
+import Icon24Hours from "$tabler_icons/tsx/24-hours.tsx";
 
 const Contact = () => {
   return (

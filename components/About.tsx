@@ -1,8 +1,8 @@
-import IconBrandGithub from "@tabler_icons/tsx/brand-github.tsx";
-import IconGift from "@tabler_icons/tsx/gift.tsx";
-import IconDollar from "@tabler_icons/tsx/mood-dollar.tsx";
-import IconSourceCode from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/source-code.tsx";
-import IconLayersSubtract from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/layers-subtract.tsx";
+import IconBrandGithub from "$tabler_icons/tsx/brand-github.tsx";
+import IconGift from "$tabler_icons/tsx/gift.tsx";
+import IconDollar from "$tabler_icons/tsx/mood-dollar.tsx";
+import IconSourceCode from "$tabler_icons/tsx/source-code.tsx";
+import IconLayersSubtract from "$tabler_icons/tsx/layers-subtract.tsx";
 
 <IconBrandGithub class="w-6 h-6" />;
 

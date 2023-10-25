@@ -1,4 +1,4 @@
-import { NAV_STYLES, SITE_BAR_STYLES } from "@/utils/constants.ts";
+import { NAV_STYLES, SITE_BAR_STYLES } from "#/utils/constants.ts";
 import Logo from "./Logo.tsx";
 
 function Footer() {

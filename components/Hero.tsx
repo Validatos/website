@@ -1,4 +1,4 @@
-import Brands from "@/components/Brands.tsx";
+import Brands from "#/components/Brands.tsx";
 
 const Hero = () => {
   return (

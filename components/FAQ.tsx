@@ -1,4 +1,4 @@
-import Question from "@/islands/Question.tsx";
+import Question from "#/islands/Question.tsx";
 
 const questions = [
   {
