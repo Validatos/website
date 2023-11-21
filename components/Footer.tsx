@@ -30,7 +30,11 @@ function Footer() {
             </a>
           ))}
         </nav>
-        <a href="https://fresh.deno.dev" class="md:ml-4 mt-6 md:mt-0">
+        <a
+          href="https://fresh.deno.dev"
+          target="_blank"
+          class="md:ml-4 mt-6 md:mt-0"
+        >
           <img
             width="197"
             height="37"
