@@ -8,15 +8,11 @@
     "preview": "deno run -A main.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
-  "lint": {
-    "rules": {
-      "tags": ["fresh", "recommended"]
-    }
-  },
+  "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "exclude": ["**/_fresh/*"],
   "imports": {
     "#/": "./",
-    "$fresh/": "https://deno.land/x/fresh@1.5.2/",
+    "$fresh/": "https://deno.land/x/fresh@1.5.4/",
     "$std/": "https://deno.land/std@0.193.0/",
     "$tabler_icons/": "https://deno.land/x/tabler_icons_tsx@0.0.4/",
     "@openapi-explorer": "npm:/openapi-explorer@1.1.578",
@@ -29,8 +25,5 @@
     "@twind/preset-autoprefix": "npm:/@twind/preset-autoprefix@1.0.7",
     "@twind/preset-tailwind/": "npm:/@twind/preset-tailwind@1.1.4/"
   },
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "preact"
-  }
+  "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" }
 }
