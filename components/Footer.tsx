@@ -8,8 +8,8 @@ function Footer() {
       href: "/docs",
     },
     {
-      href: "/rapidapi",
-      inner: "Rapidapi",
+      inner: "Terminos y Condiciones",
+      href: "/terminos-y-condiciones",
     },
     {
       href: "/#contact",
