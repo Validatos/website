@@ -81,6 +81,8 @@ export default function Meta({
       <link rel="stylesheet" href="css/animate.css" />
       <link rel="stylesheet" href="css/styles.css" />
       <link rel="stylesheet" href="css/ud-styles.css" />
+
+      <link rel="stylesheet" href="/styles.css" />
       {imageUrl && <meta name="twitter:image" content={imageUrl} />}
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
