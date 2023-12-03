@@ -1,5 +1,5 @@
-import OpenAPIExplorer from "#/islands/OpenAPIExplorer.tsx";
+// import OpenAPIExplorer from "#/islands/OpenAPIExplorer.tsx";
 
 export default function DocsPage() {
-  return <OpenAPIExplorer />;
+  return <p>docs</p>;
 }

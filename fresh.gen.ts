@@ -11,7 +11,6 @@ import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $terminos_y_condiciones_index from "./routes/terminos-y-condiciones/index.tsx";
 import * as $NavBar from "./islands/NavBar.tsx";
-import * as $OpenAPIExplorer from "./islands/OpenAPIExplorer.tsx";
 import * as $Question from "./islands/Question.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -28,7 +27,6 @@ const manifest = {
   },
   islands: {
     "./islands/NavBar.tsx": $NavBar,
-    "./islands/OpenAPIExplorer.tsx": $OpenAPIExplorer,
     "./islands/Question.tsx": $Question,
   },
   baseUrl: import.meta.url,
