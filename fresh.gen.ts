@@ -2,35 +2,36 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_500.tsx";
-import * as $2 from "./routes/_app.tsx";
-import * as $3 from "./routes/api/contact.ts";
-import * as $4 from "./routes/docs/index.tsx";
-import * as $5 from "./routes/greet/[name].tsx";
-import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/terminos-y-condiciones/index.tsx";
-import * as $$0 from "./islands/NavBar.tsx";
-import * as $$1 from "./islands/OpenAPIExplorer.tsx";
-import * as $$2 from "./islands/Question.tsx";
+import * as $_404 from "./routes/_404.tsx";
+import * as $_500 from "./routes/_500.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $api_contact from "./routes/api/contact.ts";
+import * as $docs_index from "./routes/docs/index.tsx";
+import * as $greet_name_ from "./routes/greet/[name].tsx";
+import * as $index from "./routes/index.tsx";
+import * as $terminos_y_condiciones_index from "./routes/terminos-y-condiciones/index.tsx";
+import * as $NavBar from "./islands/NavBar.tsx";
+import * as $OpenAPIExplorer from "./islands/OpenAPIExplorer.tsx";
+import * as $Question from "./islands/Question.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_500.tsx": $1,
-    "./routes/_app.tsx": $2,
-    "./routes/api/contact.ts": $3,
-    "./routes/docs/index.tsx": $4,
-    "./routes/greet/[name].tsx": $5,
-    "./routes/index.tsx": $6,
-    "./routes/terminos-y-condiciones/index.tsx": $7,
+    "./routes/_404.tsx": $_404,
+    "./routes/_500.tsx": $_500,
+    "./routes/_app.tsx": $_app,
+    "./routes/api/contact.ts": $api_contact,
+    "./routes/docs/index.tsx": $docs_index,
+    "./routes/greet/[name].tsx": $greet_name_,
+    "./routes/index.tsx": $index,
+    "./routes/terminos-y-condiciones/index.tsx": $terminos_y_condiciones_index,
   },
   islands: {
-    "./islands/NavBar.tsx": $$0,
-    "./islands/OpenAPIExplorer.tsx": $$1,
-    "./islands/Question.tsx": $$2,
+    "./islands/NavBar.tsx": $NavBar,
+    "./islands/OpenAPIExplorer.tsx": $OpenAPIExplorer,
+    "./islands/Question.tsx": $Question,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;
