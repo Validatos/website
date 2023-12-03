@@ -18,7 +18,7 @@ export default function App(props: PageProps) {
         />
       </Head>
       <Navbar />
-      <div class="mt-20 sm:mt-24 grow">
+      <div class="mt-20 grow">
         <props.Component />
       </div>
       <Footer />

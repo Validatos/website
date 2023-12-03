@@ -48,17 +48,15 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sticky = headerRef.current!.offsetTop;
-
-      if (window.pageYOffset > sticky) {
+      if (window.scrollY > 100) {
         isSticky.value = true;
       } else {
         isSticky.value = false;
       }
     };
+    handleScroll();
     // deno-lint-ignore no-window-prefix
     window.addEventListener("scroll", handleScroll);
-
     // deno-lint-ignore no-window-prefix
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -76,7 +74,7 @@ const Navbar = () => {
   return (
     <header
       class={`ud-header sm:h-[110px] ${
-        isSticky.value ? "sticky " : "bg-[#3056d3]"
+        isSticky.value ? "sticky" : "bg-[#3056d3] fixed z-100"
       }`}
       ref={headerRef}
     >
@@ -84,7 +82,7 @@ const Navbar = () => {
         <nav class="flex justify-space-between sm:justify-start items-center flex-row flex-wrap relative">
           <Logo darkTheme={!isSticky.value} />
           <div
-            class={`navbar-collapse flex grow hidden sm:flex ${
+            class={`navbar-collapse grow hidden md:flex ${
               isCollapsed.value ? "" : "show"
             }`}
           >
