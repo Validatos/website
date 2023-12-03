@@ -7,7 +7,7 @@ import Footer from "#/components/Footer.tsx";
 
 export default function App(props: PageProps) {
   return (
-    <html>
+    <html lang="es">
       <Head>
         <Meta
           title={props.state?.title
