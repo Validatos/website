@@ -1,9 +1,12 @@
 import { PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-import { SITE_DESCRIPTION, SITE_NAME } from "#/utils/constants.ts";
 import Meta from "#/components/Meta.tsx";
 import Navbar from "#/islands/NavBar.tsx";
 import Footer from "#/components/Footer.tsx";
+
+const SITE_NAME = "Validatos - Servicios de Validación de Datos";
+const SITE_DESCRIPTION =
+  "Validatos ofrece servicios de validación de datos con precios competitivos, alta disponibilidad y fácil integración.";
 
 export default function App(props: PageProps) {
   return (
