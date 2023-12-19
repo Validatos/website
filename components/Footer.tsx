@@ -1,4 +1,3 @@
-import { NAV_STYLES, SITE_BAR_STYLES } from "#/utils/constants.ts";
 import Logo from "./Logo.tsx";
 
 function Footer() {
@@ -18,12 +17,12 @@ function Footer() {
   ];
   return (
     <footer
-      class={`${SITE_BAR_STYLES} flex-col md:flex-row flex bg-blue-600 text-white`}
+      class={`flex flex-col md:flex-row justify-between px-4 py-4 items-center bg-blue-600 text-white`}
     >
       <Logo />
 
       <div class="flex flex-col md:flex-row items-center justify-center">
-        <nav class={NAV_STYLES}>
+        <nav class="flex flex-wrap justify-center gap-x-8 gap-y-4 items-center">
           {footerNavItems.map((i) => (
             <a href={i.href} class="text-white">
               {i.inner}
